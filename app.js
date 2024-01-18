@@ -1,14 +1,18 @@
-/*let numeroSecreto = 6; 
+let numeroSecreto = 6; 
 
-let numeroUsuario = prompt('Me indicas un número por favor');
+let numeroUsuario = prompt("Me indicas un número entre 1 y 10 por favor:");
 
  console.log(numeroUsuario);
 
  if (numeroUsuario == numeroSecreto){
-  alert('Acertaste el numero');
+  alert(`Acertaste, el numero es: ${numeroUsuario}`);
  }
- */
+ else{
+  alert('Lo siento, no acertaste el numero');
+ }
+ 
 
+/*
 //Desafio: hora de practicar
 // Muestra una alerta de bienvenida
 alert("¡Bienvenida y bienvenido a nuestro sitio web!");
@@ -36,3 +40,4 @@ edad = parseInt(edad);
 if (edad >= 18) {
   alert("¡Puedes obtener tu licencia de conducir!");
 }
+*/
